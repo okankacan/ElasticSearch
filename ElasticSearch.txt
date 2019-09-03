@@ -1,0 +1,31 @@
+ 
+Herkese Selamlar
+
+Elasticsearch hýzlý aramalar için kullanýlmaktadýr. Indexleme sayesinde performansý olumlu bir þekilde etkiler ve maliyetleri minimuma çeker. Bir çok büyük firma linkedin, GitHub gibi firma tarafýndan kullanýlmaktadýr. Elasticsearch aþaðýdaki urlden indirin makinenize kurun
+
+https://github.com/rgl/elasticsearch-setup/releases
+https://www.elastic.co/downloads/kibana
+
+
+Visual Studio .Net tarafýnda NEST kütüpahanesi ile bu güçlü arama motoru kolayca implemente edilebilmektedir. NEST ve Elasticsearch nuget indirip projenize dahil edin.
+
+Index: Öncelikle ElasticSearch’de her kayýt bir Json dökümandýr. Yani indexler, Json belgeler topluluðudur. Default veya Custom olarak yaratýlabilirler.  Yeni bir index yaratma sýrasýnda, alias vermek çok saðlýklýdýr. Alies verildiði takdirde, indexde olan bir deðiþiklikten dolayý yeni bir index yaratýlýp eskisi kolaylýkla silinebilir. Kýsaca her bir index bir çeþit veritabanýdýr.
+
+Mapping: Bir veri þablonu ya da data modeli olarak da tarif edebiliriz. Amacý, ilgili dökümanýn arama motoruna nasýl aktarýlacaðýnýn tanýmlanmasýdýr. Kýsaca veritabanýnda isimlendirdiðimiz bir schema’dýr diyebiliriz.
+
+Document: ElasticSearch’deki her bir kayda, yani row’a document denir.
+
+Field: Her bir döküman içindeki alana, field denir. Yani DB’deki bildiðiniz column.
+
+
+http://localhost:9200/   (elasticsearch)
+http://localhost:5601/	 (kibana
+
+http://localhost:9200/_cat/indices /bütün indexler
+http://localhost:9200/product_history/_search documentlere ulaþabilirsiniz.
+
+
+ 
+
+
+ 
