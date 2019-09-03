@@ -1,0 +1,109 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                   ElasticSearch .Net Core
+                </p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                   ElasticSearch .Net Core
+            </div>
+        </div>
+        <div class="item">
+            <img src="~/images/banner3.svg" alt="Microsoft Azure" class="img-responsive" />
+            <div class="carousel-caption" role="option">
+                <p>
+                    ElasticSearch .Net Core
+                </p>
+            </div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<div class="row" style="margin-top:15px">
+    <div class="col-md-12">
+        <div class="form-group">
+            <input id="searchText" type="text" placeholder="Apple"/>
+        </div>
+
+        <div style="width:50%; float:left;" id="productResult">
+            <ul id="productList">
+               
+            </ul>
+
+
+        </div>
+        <div style="width:50%; float:left;" id="productResult">
+            <ul>
+                <li>Samsung Galaxy Note 8</li>
+                <li>Samsung Galaxy S8</li>
+                <li>Apple Iphone 8</li>
+                <li>Apple Iphone X</li>
+                <li>Apple iPad Pro</li>
+            </ul>
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<script>
+    $("#searchText").keypress(function () {
+        var search = $("#searchText").val();
+        if (search.length > 2) {
+            $.ajax({
+                type: 'POST',
+                url: "/Home/SearchProduct",
+                data: {
+                    "keyword": search
+                },
+                success: function (msg) {
+
+                    if (msg.suggests.length > 0) {
+                        var product = "";
+                        for (var i = 0; i <= msg.suggests.length-1; i++) {
+                            product += "<li>" + msg.suggests[i].name + "</li>";
+                        }
+                        $("#productList").html(product);
+                    }
+
+
+                },
+                error: function (msg) {
+                    alert(msg);
+                }
+            });
+        }
+    });
+
+
+</script>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticSearch.WebSite", "ElasticSearch.WebSite\ElasticSearch.WebSite.csproj", "{69FB30D4-1B36-4356-B8FA-455E870EFC7D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElasticSearch.Business", "ElasticSearch.Business\ElasticSearch.Business.csproj", "{5C3E6062-738E-41E0-AD0C-C57C7DA8906B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69FB30D4-1B36-4356-B8FA-455E870EFC7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FB30D4-1B36-4356-B8FA-455E870EFC7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FB30D4-1B36-4356-B8FA-455E870EFC7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FB30D4-1B36-4356-B8FA-455E870EFC7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C3E6062-738E-41E0-AD0C-C57C7DA8906B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C3E6062-738E-41E0-AD0C-C57C7DA8906B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C3E6062-738E-41E0-AD0C-C57C7DA8906B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C3E6062-738E-41E0-AD0C-C57C7DA8906B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {110C2E82-8626-4C8B-8C3F-CFD59808BB9F}
+	EndGlobalSection
+EndGlobal

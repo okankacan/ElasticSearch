@@ -1,0 +1,14 @@
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\bin\Debug\netcoreapp2.1\ElasticSearch.Business.deps.json
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\bin\Debug\netcoreapp2.1\ElasticSearch.Business.runtimeconfig.json
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\bin\Debug\netcoreapp2.1\ElasticSearch.Business.runtimeconfig.dev.json
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\bin\Debug\netcoreapp2.1\ElasticSearch.Business.dll
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.csprojAssemblyReference.cache
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.RazorAssemblyInfo.cache
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.RazorAssemblyInfo.cs
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.AssemblyInfoInputs.cache
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.AssemblyInfo.cs
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\bin\Debug\netcoreapp2.1\ElasticSearch.Business.pdb
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.dll
+C:\Users\lenovo\source\repos\ElasticSearch.WebSite\ElasticSearch.Business\obj\Debug\netcoreapp2.1\ElasticSearch.Business.pdb
